@@ -1,0 +1,163 @@
+# 🍽️ Le Délice - Restaurant Gastronomique
+
+Site vitrine moderne pour restaurant gastronomique avec une identité visuelle forte et des animations sophistiquées.
+
+## ✨ Fonctionnalités
+
+### 🎨 Design & UX
+- **Interface Moderne** : Design épuré avec animations fluides et transitions cinématiques
+- **Mode Sombre/Clair** : Basculement fluide entre les thèmes avec persistance
+- **Responsive** : Optimisé pour tous les appareils (mobile, tablette, desktop)
+- **Animations** : Parallaxe, scroll-triggered animations, micro-interactions
+- **Glassmorphism** : Effets de verre et backdrop blur
+
+### 🧭 Navigation
+- Navigation sticky avec effet de transparence au scroll
+- Menu burger animé sur mobile
+- Top bar informatif avec coordonnées
+- Logo interactif avec effets de hover
+
+### 🏠 Hero Section
+- Effet parallaxe sur le fond
+- Statistiques animées (note Google, années d'expérience, clients)
+- CTA (Call-to-Action) avec animations
+- Indicateur de scroll animé
+
+### 📋 Menu Interactif
+- Filtres par catégorie animés (Entrées, Plats, Poissons, Vins, Desserts)
+- Cards avec effet hover et scale
+- Badges pour les plats signature
+- Affichage des allergènes
+- Téléchargement de la carte en PDF
+
+### 🖼️ Galerie Photos
+- Layout en mosaïque (masonry) responsive
+- Lightbox avec navigation
+- Overlay d'information au hover
+- Images lazy loading
+- Catégorisation des photos
+
+### 📅 Système de Réservation
+- **Sélection Visuelle de Table** : Interface interactive pour choisir sa table
+- État en temps réel (disponible/réservée)
+- Informations détaillées par table (capacité, emplacement)
+- Formulaire complet de réservation
+- Sélection de date/heure avec créneaux horaires
+- Confirmation animée de la réservation
+- Validation des champs
+
+### 📖 Section À Propos
+- Timeline interactive avec l'histoire du restaurant
+- Présentation du Chef avec photo
+- Grid des valeurs avec icônes animées
+- Parcours et récompenses
+
+### 🦶 Footer
+- Informations de contact complètes
+- Horaires d'ouverture
+- Liens rapides de navigation
+- Réseaux sociaux
+- Liens légaux
+
+## 🛠️ Technologies
+
+- **React** - Framework JavaScript
+- **Vite** - Build tool ultra-rapide
+- **Tailwind CSS** - Framework CSS utility-first
+- **Lucide React** - Bibliothèque d'icônes
+- **Hooks personnalisés** - Pour les animations au scroll et le parallaxe
+
+## 🚀 Installation
+
+```bash
+# Installer les dépendances
+cd restaurant-site
+npm install
+
+# Lancer le serveur de développement
+npm run dev
+
+# Build pour la production
+npm run build
+
+# Preview du build
+npm run preview
+```
+
+## 📁 Structure du Projet
+
+```
+restaurant-site/
+├── src/
+│   ├── components/
+│   │   ├── Navigation/
+│   │   │   └── Navigation.jsx
+│   │   ├── Hero/
+│   │   │   └── Hero.jsx
+│   │   ├── Menu/
+│   │   │   └── Menu.jsx
+│   │   ├── Gallery/
+│   │   │   └── Gallery.jsx
+│   │   ├── About/
+│   │   │   └── About.jsx
+│   │   ├── Reservation/
+│   │   │   └── Reservation.jsx
+│   │   └── Footer/
+│   │       └── Footer.jsx
+│   ├── context/
+│   │   └── ThemeContext.jsx
+│   ├── hooks/
+│   │   └── useScrollAnimation.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── tailwind.config.js
+└── package.json
+```
+
+## 🎨 Palette de Couleurs
+
+### Primary (Orange)
+- 50-900: Gradients d'orange chaleureux pour les accents
+- Utilisé pour : CTA, liens, éléments interactifs
+
+### Dark
+- 50-950: Échelle de gris pour le mode sombre
+- Backgrounds, textes, borders
+
+## ⚡ Performances
+
+- Lazy loading des images
+- Animations optimisées avec CSS transforms
+- Code splitting automatique par Vite
+- Assets optimisés
+
+## 🌐 SEO
+
+- Meta tags optimisés
+- Sémantique HTML5
+- Structure de navigation claire
+- Attributs alt sur toutes les images
+
+## 📱 Responsive Breakpoints
+
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
+
+## 🎯 Points Forts
+
+1. **Identité Visuelle Unique** : Pas de template basique, design personnalisé
+2. **Animations Sophistiquées** : Parallaxe, scroll-triggered, micro-interactions
+3. **UX Premium** : Sélection visuelle de tables, filtres animés, lightbox
+4. **Accessibilité** : ARIA labels, navigation au clavier
+5. **Performance** : Optimisations multiples, chargement rapide
+
+## 📝 Licence
+
+Ce projet est une démonstration de site vitrine pour restaurant.
+
+---
+
+Développé avec ❤️ et React

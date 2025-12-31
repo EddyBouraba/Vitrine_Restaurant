@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer components {
+  /* Glass morphism effect */
+  .glass {
+    @apply bg-white/70 dark:bg-dark-900/70 backdrop-blur-xl border border-white/20 dark:border-dark-700/20;
+  }
+
+  .glass-hover {
+    @apply bg-white/50 dark:bg-dark-900/50 backdrop-blur-xl border border-white/20 dark:border-dark-700/20 hover:bg-white/80 dark:hover:bg-dark-900/80 hover:border-white/40 dark:hover:border-dark-700/40;
+  }
+
+  /* Text gradient */
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-600 via-primary-500 to-primary-600 dark:from-primary-400 dark:via-primary-300 dark:to-primary-400 bg-clip-text text-transparent;
+  }
+
+  /* Animated gradient */
+  .animate-gradient {
+    background-size: 200% auto;
+    animation: gradient 3s linear infinite;
+  }
+
+  @keyframes gradient {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+}
+
+@layer utilities {
+  /* Scrollbar styling */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-dark-100 dark:bg-dark-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary-500 dark:bg-primary-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary-600 dark:bg-primary-500;
+  }
+}
