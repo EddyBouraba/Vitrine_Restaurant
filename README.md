@@ -1,6 +1,6 @@
 # 🍽️ Le Délice - Restaurant Gastronomique
 
-Site vitrine moderne pour restaurant gastronomique avec une identité visuelle forte et des animations sophistiquées.
+Un site vitrine que j'ai créé pour montrer mes compétences en développement web moderne. L'idée était de concevoir un site pour un restaurant fictif avec une vraie attention aux détails et à l'expérience utilisateur.
 
 ## ✨ Fonctionnalités
 
@@ -61,11 +61,13 @@ Site vitrine moderne pour restaurant gastronomique avec une identité visuelle f
 
 ## 🛠️ Technologies
 
-- **React** - Framework JavaScript
-- **Vite** - Build tool ultra-rapide
-- **Tailwind CSS** - Framework CSS utility-first
-- **Lucide React** - Bibliothèque d'icônes
-- **Hooks personnalisés** - Pour les animations au scroll et le parallaxe
+J'ai choisi ces technologies pour leur performance et leur efficacité :
+
+- **React** - J'adore React pour sa simplicité et sa flexibilité
+- **Vite** - Incroyablement rapide comparé à Create React App
+- **Tailwind CSS** - Une fois qu'on s'y habitue, on ne peut plus s'en passer
+- **Lucide React** - Des icônes propres et légères
+- **Hooks personnalisés** - J'ai créé mes propres hooks pour les animations
 
 ## 🚀 Installation
 
@@ -146,18 +148,27 @@ restaurant-site/
 - Tablet: 768px - 1024px
 - Desktop: > 1024px
 
-## 🎯 Points Forts
+## 🎯 Ce dont je suis fier
 
-1. **Identité Visuelle Unique** : Pas de template basique, design personnalisé
-2. **Animations Sophistiquées** : Parallaxe, scroll-triggered, micro-interactions
-3. **UX Premium** : Sélection visuelle de tables, filtres animés, lightbox
-4. **Accessibilité** : ARIA labels, navigation au clavier
-5. **Performance** : Optimisations multiples, chargement rapide
+1. **Design personnalisé** - J'ai tout fait from scratch, sans template
+2. **Animations fluides** - J'ai passé du temps à peaufiner chaque transition
+3. **Système de réservation** - La sélection visuelle des tables était un vrai challenge
+4. **Mode sombre** - Implémenté avec persistance, ça change vraiment l'ambiance
+5. **Performances** - Le site charge super vite grâce à Vite
+
+## 💭 Réflexions
+
+Ce projet m'a appris beaucoup sur les animations React et comment créer une vraie expérience utilisateur immersive. Le plus difficile a été de trouver le bon équilibre entre les animations et la performance.
+
+Si je devais le refaire, j'ajouterais probablement :
+- Un vrai backend avec Node.js pour les réservations
+- Des tests avec Jest/React Testing Library
+- Un CMS pour que le restaurant puisse modifier le menu facilement
 
 ## 📝 Licence
 
-Ce projet est une démonstration de site vitrine pour restaurant.
+MIT - Projet personnel de portfolio
 
 ---
 
-Développé avec ❤️ et React
+Fait avec ❤️ et beaucoup de café ☕
