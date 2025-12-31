@@ -1,9 +1,15 @@
 {
+<<<<<<< HEAD
   "name": "restaurant-vitrine",
   "private": true,
   "version": "1.0.0",
   "description": "Site vitrine moderne pour restaurant - Projet portfolio avec React, Vite et Tailwind CSS",
   "author": "Votre Nom",
+=======
+  "name": "restaurant-site",
+  "private": true,
+  "version": "0.0.0",
+>>>>>>> 5271c3134a577fd4a263f837589ca5f8329d3c20
   "type": "module",
   "scripts": {
     "dev": "vite",

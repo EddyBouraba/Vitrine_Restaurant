@@ -1,6 +1,10 @@
 # 🍽️ Le Délice - Restaurant Gastronomique
 
+<<<<<<< HEAD
 Un site vitrine que j'ai créé pour montrer mes compétences en développement web moderne. L'idée était de concevoir un site pour un restaurant fictif avec une vraie attention aux détails et à l'expérience utilisateur.
+=======
+Site vitrine moderne pour restaurant gastronomique avec une identité visuelle forte et des animations sophistiquées.
+>>>>>>> 5271c3134a577fd4a263f837589ca5f8329d3c20
 
 ## ✨ Fonctionnalités
 
@@ -61,6 +65,7 @@ Un site vitrine que j'ai créé pour montrer mes compétences en développement 
 
 ## 🛠️ Technologies
 
+<<<<<<< HEAD
 J'ai choisi ces technologies pour leur performance et leur efficacité :
 
 - **React** - J'adore React pour sa simplicité et sa flexibilité
@@ -68,6 +73,13 @@ J'ai choisi ces technologies pour leur performance et leur efficacité :
 - **Tailwind CSS** - Une fois qu'on s'y habitue, on ne peut plus s'en passer
 - **Lucide React** - Des icônes propres et légères
 - **Hooks personnalisés** - J'ai créé mes propres hooks pour les animations
+=======
+- **React** - Framework JavaScript
+- **Vite** - Build tool ultra-rapide
+- **Tailwind CSS** - Framework CSS utility-first
+- **Lucide React** - Bibliothèque d'icônes
+- **Hooks personnalisés** - Pour les animations au scroll et le parallaxe
+>>>>>>> 5271c3134a577fd4a263f837589ca5f8329d3c20
 
 ## 🚀 Installation
 
@@ -148,6 +160,7 @@ restaurant-site/
 - Tablet: 768px - 1024px
 - Desktop: > 1024px
 
+<<<<<<< HEAD
 ## 🎯 Ce dont je suis fier
 
 1. **Design personnalisé** - J'ai tout fait from scratch, sans template
@@ -172,3 +185,20 @@ MIT - Projet personnel de portfolio
 ---
 
 Fait avec ❤️ et beaucoup de café ☕
+=======
+## 🎯 Points Forts
+
+1. **Identité Visuelle Unique** : Pas de template basique, design personnalisé
+2. **Animations Sophistiquées** : Parallaxe, scroll-triggered, micro-interactions
+3. **UX Premium** : Sélection visuelle de tables, filtres animés, lightbox
+4. **Accessibilité** : ARIA labels, navigation au clavier
+5. **Performance** : Optimisations multiples, chargement rapide
+
+## 📝 Licence
+
+Ce projet est une démonstration de site vitrine pour restaurant.
+
+---
+
+Développé avec ❤️ et React
+>>>>>>> 5271c3134a577fd4a263f837589ca5f8329d3c20
