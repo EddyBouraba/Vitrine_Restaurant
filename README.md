@@ -1,11 +1,5 @@
 # 🍽️ Le Délice - Restaurant Gastronomique
 
-<<<<<<< HEAD
-Un site vitrine que j'ai créé pour montrer mes compétences en développement web moderne. L'idée était de concevoir un site pour un restaurant fictif avec une vraie attention aux détails et à l'expérience utilisateur.
-=======
-Site vitrine moderne pour restaurant gastronomique avec une identité visuelle forte et des animations sophistiquées.
->>>>>>> 5271c3134a577fd4a263f837589ca5f8329d3c20
-
 ## ✨ Fonctionnalités
 
 ### 🎨 Design & UX
